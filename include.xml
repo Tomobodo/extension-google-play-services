@@ -4,7 +4,7 @@
 	
 	<!-- Use the following for an Android Java extension, not needed otherwise -->
 	
-	<dependency name="googleplay" path="dependencies/android" if="android" />
+	<dependency name="google-play-services" path="dependencies/android" if="android" />
 	<!-- <android extension="org.haxe.extension.GooglePlayOpenFL" /> -->
 	
 </project>

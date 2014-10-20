@@ -1,12 +1,12 @@
 {
-  "name": "GooglePlayOpenFL",
+  "name": "google-play-services",
   "url": "",
   "license": "MIT",
   "tags": [],
   "description": "",
   "version": "1.0.0",
   "releasenote": "",
-  "contributors": [""],
+  "contributors": ["TBaudon"],
   "dependencies": {
 
   }
