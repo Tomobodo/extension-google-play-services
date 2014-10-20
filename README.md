@@ -1,4 +1,4 @@
-googleplayservices-openfl
+google-play-services
 =================
 
 A lot of google services now rellie on google-play-services , such as admob.
@@ -10,8 +10,8 @@ This prevent every google extension from including different version of google-p
 **how to use**
 
 1. Clone this repo ```git clone git@github.com:TBaudon/googleplayservices-openfl.git```
-2. Use ```haxelib dev googleplayservices path/to/clone```
-3. add ```<haxelib name="googleplayservices" />``` to your project before any other google extension.
+2. Use ```haxelib dev google-play-services path/to/clone```
+3. add ```<haxelib name="google-play-services" />``` to your project before any other google extension.
 
 **google service extensions**
 
