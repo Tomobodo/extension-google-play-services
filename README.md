@@ -1,4 +1,4 @@
-googleplay-openfl
+googleplayservices-openfl
 =================
 
 A lot of google services now rellie on google-play-services , such as admob.
