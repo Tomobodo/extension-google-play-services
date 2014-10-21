@@ -9,9 +9,18 @@ This prevent every google extension from including different version of google-p
 
 **how to use**
 
-1. Clone this repo ```git clone git@github.com:TBaudon/googleplayservices-openfl.git```
+1. Clone this repo ```git clone git@github.com:TBaudon/google-play-services-openfl.git```
 2. Use ```haxelib dev google-play-services path/to/clone```
-3. add ```<haxelib name="google-play-services" />``` to your project before any other google extension.
+3. Add ```<haxelib name="google-play-services" />``` to your project before any other google extension.
+4. You can check google-play-services availability with 
+```
+var availibitily = GooglePlayServices.getAvailability();
+if(availibitily != 0) { // not available
+	GooglePlayServices.showErrorDialog(availibitily);
+}else{
+	// your code using google api.
+}
+```	
 
 **google service extensions**
 
